@@ -32,7 +32,7 @@ export default function Navab() {
                         </a>
                     </div>
                 </div>
-                <div className='right-sidebar-panel-content animated fadeInRight' tabIndex="5003" style="overflow: hidden; outline: none;"></div>
+                <div className='right-sidebar-panel-content animated fadeInRight' tabIndex="5003" style={{overflow: 'hidden', outline: 'none'}} ></div>
             </div>
         </div>
     </div>
