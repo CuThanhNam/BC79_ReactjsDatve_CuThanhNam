@@ -23,7 +23,7 @@ export default function Navigation() {
                             <input type="number" id='Numseats' required min="1"/>
                         </div>
                     </div>
-                    <button onClick="">Start Selecting</button>
+                    <button onClick="takeData()">Start Selecting</button>
                 </div>
                 <ul className='seat_w3ls'>
                     <li className='smallBox greenBox'>
@@ -461,7 +461,7 @@ export default function Navigation() {
                     <div className='screen'>
                         <h2 className='wthree'>Screen this way</h2>
                     </div>
-                    <button onClick="" disabled>Confirm Selection</button>
+                    <button onClick="updateTextArea()" disabled>Confirm Selection</button>
                 </div>
                 <div className='displayerBoxes txt-center' style={{overflowX: 'auto'}}>
                     <table className='Displaytable w3ls-table'width="100%">

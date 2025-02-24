@@ -4,7 +4,7 @@ export default function Navab() {
   return (
     <div>
         <div className='pull-right toggle-right-sidebar'>
-            <span className='fa title-open-right-sidebar tooltipstered fa-angle-double-right'></span>
+            <span className='fa title-open-right-sidebar tooltipstered'><i class="fa fa-angle-double-right"></i></span>
         </div>
         <div id='right-sidebar'className='right-sidebar-notifcations nav-collapse'>
             <div className='bs-example bs-example-tabs right-sidebar-tab-notifcation' data-example-id="togglable-tabs">
